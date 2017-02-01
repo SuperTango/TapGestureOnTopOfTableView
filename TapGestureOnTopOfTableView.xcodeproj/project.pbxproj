@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C49ACBAF1E41CDEF007E354A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49ACBAE1E41CDEF007E354A /* AppDelegate.swift */; };
+		C49ACBB11E41CDEF007E354A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49ACBB01E41CDEF007E354A /* ViewController.swift */; };
+		C49ACBB41E41CDEF007E354A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49ACBB21E41CDEF007E354A /* Main.storyboard */; };
+		C49ACBB61E41CDEF007E354A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49ACBB51E41CDEF007E354A /* Assets.xcassets */; };
+		C49ACBB91E41CDEF007E354A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49ACBB71E41CDEF007E354A /* LaunchScreen.storyboard */; };
+		C49ACBC41E41CDEF007E354A /* TapGestureOnTopOfTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49ACBC31E41CDEF007E354A /* TapGestureOnTopOfTableViewTests.swift */; };
+		C49ACBCF1E41CDF0007E354A /* TapGestureOnTopOfTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49ACBCE1E41CDF0007E354A /* TapGestureOnTopOfTableViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C49ACBC01E41CDEF007E354A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49ACBA31E41CDEF007E354A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49ACBAA1E41CDEF007E354A;
+			remoteInfo = TapGestureOnTopOfTableView;
+		};
+		C49ACBCB1E41CDEF007E354A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49ACBA31E41CDEF007E354A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49ACBAA1E41CDEF007E354A;
+			remoteInfo = TapGestureOnTopOfTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C49ACBAB1E41CDEF007E354A /* TapGestureOnTopOfTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapGestureOnTopOfTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49ACBAE1E41CDEF007E354A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C49ACBB01E41CDEF007E354A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C49ACBB31E41CDEF007E354A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C49ACBB51E41CDEF007E354A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C49ACBB81E41CDEF007E354A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C49ACBBA1E41CDEF007E354A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49ACBBF1E41CDEF007E354A /* TapGestureOnTopOfTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapGestureOnTopOfTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49ACBC31E41CDEF007E354A /* TapGestureOnTopOfTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureOnTopOfTableViewTests.swift; sourceTree = "<group>"; };
+		C49ACBC51E41CDEF007E354A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49ACBCA1E41CDEF007E354A /* TapGestureOnTopOfTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapGestureOnTopOfTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49ACBCE1E41CDF0007E354A /* TapGestureOnTopOfTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureOnTopOfTableViewUITests.swift; sourceTree = "<group>"; };
+		C49ACBD01E41CDF0007E354A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C49ACBA81E41CDEF007E354A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49ACBBC1E41CDEF007E354A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49ACBC71E41CDEF007E354A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C49ACBA21E41CDEF007E354A = {
+			isa = PBXGroup;
+			children = (
+				C49ACBAD1E41CDEF007E354A /* TapGestureOnTopOfTableView */,
+				C49ACBC21E41CDEF007E354A /* TapGestureOnTopOfTableViewTests */,
+				C49ACBCD1E41CDEF007E354A /* TapGestureOnTopOfTableViewUITests */,
+				C49ACBAC1E41CDEF007E354A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C49ACBAC1E41CDEF007E354A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C49ACBAB1E41CDEF007E354A /* TapGestureOnTopOfTableView.app */,
+				C49ACBBF1E41CDEF007E354A /* TapGestureOnTopOfTableViewTests.xctest */,
+				C49ACBCA1E41CDEF007E354A /* TapGestureOnTopOfTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C49ACBAD1E41CDEF007E354A /* TapGestureOnTopOfTableView */ = {
+			isa = PBXGroup;
+			children = (
+				C49ACBAE1E41CDEF007E354A /* AppDelegate.swift */,
+				C49ACBB01E41CDEF007E354A /* ViewController.swift */,
+				C49ACBB21E41CDEF007E354A /* Main.storyboard */,
+				C49ACBB51E41CDEF007E354A /* Assets.xcassets */,
+				C49ACBB71E41CDEF007E354A /* LaunchScreen.storyboard */,
+				C49ACBBA1E41CDEF007E354A /* Info.plist */,
+			);
+			path = TapGestureOnTopOfTableView;
+			sourceTree = "<group>";
+		};
+		C49ACBC21E41CDEF007E354A /* TapGestureOnTopOfTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C49ACBC31E41CDEF007E354A /* TapGestureOnTopOfTableViewTests.swift */,
+				C49ACBC51E41CDEF007E354A /* Info.plist */,
+			);
+			path = TapGestureOnTopOfTableViewTests;
+			sourceTree = "<group>";
+		};
+		C49ACBCD1E41CDEF007E354A /* TapGestureOnTopOfTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C49ACBCE1E41CDF0007E354A /* TapGestureOnTopOfTableViewUITests.swift */,
+				C49ACBD01E41CDF0007E354A /* Info.plist */,
+			);
+			path = TapGestureOnTopOfTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C49ACBAA1E41CDEF007E354A /* TapGestureOnTopOfTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49ACBD31E41CDF0007E354A /* Build configuration list for PBXNativeTarget "TapGestureOnTopOfTableView" */;
+			buildPhases = (
+				C49ACBA71E41CDEF007E354A /* Sources */,
+				C49ACBA81E41CDEF007E354A /* Frameworks */,
+				C49ACBA91E41CDEF007E354A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapGestureOnTopOfTableView;
+			productName = TapGestureOnTopOfTableView;
+			productReference = C49ACBAB1E41CDEF007E354A /* TapGestureOnTopOfTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C49ACBBE1E41CDEF007E354A /* TapGestureOnTopOfTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49ACBD61E41CDF0007E354A /* Build configuration list for PBXNativeTarget "TapGestureOnTopOfTableViewTests" */;
+			buildPhases = (
+				C49ACBBB1E41CDEF007E354A /* Sources */,
+				C49ACBBC1E41CDEF007E354A /* Frameworks */,
+				C49ACBBD1E41CDEF007E354A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49ACBC11E41CDEF007E354A /* PBXTargetDependency */,
+			);
+			name = TapGestureOnTopOfTableViewTests;
+			productName = TapGestureOnTopOfTableViewTests;
+			productReference = C49ACBBF1E41CDEF007E354A /* TapGestureOnTopOfTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C49ACBC91E41CDEF007E354A /* TapGestureOnTopOfTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C49ACBD91E41CDF0007E354A /* Build configuration list for PBXNativeTarget "TapGestureOnTopOfTableViewUITests" */;
+			buildPhases = (
+				C49ACBC61E41CDEF007E354A /* Sources */,
+				C49ACBC71E41CDEF007E354A /* Frameworks */,
+				C49ACBC81E41CDEF007E354A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49ACBCC1E41CDEF007E354A /* PBXTargetDependency */,
+			);
+			name = TapGestureOnTopOfTableViewUITests;
+			productName = TapGestureOnTopOfTableViewUITests;
+			productReference = C49ACBCA1E41CDEF007E354A /* TapGestureOnTopOfTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C49ACBA31E41CDEF007E354A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Funkware;
+				TargetAttributes = {
+					C49ACBAA1E41CDEF007E354A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3NLAQ87DRE;
+						ProvisioningStyle = Automatic;
+					};
+					C49ACBBE1E41CDEF007E354A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3NLAQ87DRE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C49ACBAA1E41CDEF007E354A;
+					};
+					C49ACBC91E41CDEF007E354A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3NLAQ87DRE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C49ACBAA1E41CDEF007E354A;
+					};
+				};
+			};
+			buildConfigurationList = C49ACBA61E41CDEF007E354A /* Build configuration list for PBXProject "TapGestureOnTopOfTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C49ACBA21E41CDEF007E354A;
+			productRefGroup = C49ACBAC1E41CDEF007E354A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C49ACBAA1E41CDEF007E354A /* TapGestureOnTopOfTableView */,
+				C49ACBBE1E41CDEF007E354A /* TapGestureOnTopOfTableViewTests */,
+				C49ACBC91E41CDEF007E354A /* TapGestureOnTopOfTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C49ACBA91E41CDEF007E354A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49ACBB91E41CDEF007E354A /* LaunchScreen.storyboard in Resources */,
+				C49ACBB61E41CDEF007E354A /* Assets.xcassets in Resources */,
+				C49ACBB41E41CDEF007E354A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49ACBBD1E41CDEF007E354A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49ACBC81E41CDEF007E354A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C49ACBA71E41CDEF007E354A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49ACBB11E41CDEF007E354A /* ViewController.swift in Sources */,
+				C49ACBAF1E41CDEF007E354A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49ACBBB1E41CDEF007E354A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49ACBC41E41CDEF007E354A /* TapGestureOnTopOfTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49ACBC61E41CDEF007E354A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49ACBCF1E41CDF0007E354A /* TapGestureOnTopOfTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C49ACBC11E41CDEF007E354A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49ACBAA1E41CDEF007E354A /* TapGestureOnTopOfTableView */;
+			targetProxy = C49ACBC01E41CDEF007E354A /* PBXContainerItemProxy */;
+		};
+		C49ACBCC1E41CDEF007E354A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49ACBAA1E41CDEF007E354A /* TapGestureOnTopOfTableView */;
+			targetProxy = C49ACBCB1E41CDEF007E354A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C49ACBB21E41CDEF007E354A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49ACBB31E41CDEF007E354A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C49ACBB71E41CDEF007E354A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49ACBB81E41CDEF007E354A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C49ACBD11E41CDF0007E354A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C49ACBD21E41CDF0007E354A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C49ACBD41E41CDF0007E354A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = TapGestureOnTopOfTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.TapGestureOnTopOfTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C49ACBD51E41CDF0007E354A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = TapGestureOnTopOfTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.TapGestureOnTopOfTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C49ACBD71E41CDF0007E354A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = TapGestureOnTopOfTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.TapGestureOnTopOfTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapGestureOnTopOfTableView.app/TapGestureOnTopOfTableView";
+			};
+			name = Debug;
+		};
+		C49ACBD81E41CDF0007E354A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = TapGestureOnTopOfTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.TapGestureOnTopOfTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapGestureOnTopOfTableView.app/TapGestureOnTopOfTableView";
+			};
+			name = Release;
+		};
+		C49ACBDA1E41CDF0007E354A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = TapGestureOnTopOfTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.TapGestureOnTopOfTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TapGestureOnTopOfTableView;
+			};
+			name = Debug;
+		};
+		C49ACBDB1E41CDF0007E354A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = TapGestureOnTopOfTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.TapGestureOnTopOfTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TapGestureOnTopOfTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C49ACBA61E41CDEF007E354A /* Build configuration list for PBXProject "TapGestureOnTopOfTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49ACBD11E41CDF0007E354A /* Debug */,
+				C49ACBD21E41CDF0007E354A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C49ACBD31E41CDF0007E354A /* Build configuration list for PBXNativeTarget "TapGestureOnTopOfTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49ACBD41E41CDF0007E354A /* Debug */,
+				C49ACBD51E41CDF0007E354A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C49ACBD61E41CDF0007E354A /* Build configuration list for PBXNativeTarget "TapGestureOnTopOfTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49ACBD71E41CDF0007E354A /* Debug */,
+				C49ACBD81E41CDF0007E354A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C49ACBD91E41CDF0007E354A /* Build configuration list for PBXNativeTarget "TapGestureOnTopOfTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49ACBDA1E41CDF0007E354A /* Debug */,
+				C49ACBDB1E41CDF0007E354A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C49ACBA31E41CDEF007E354A /* Project object */;
+}
