@@ -14,6 +14,7 @@
 		C49ACBB91E41CDEF007E354A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49ACBB71E41CDEF007E354A /* LaunchScreen.storyboard */; };
 		C49ACBC41E41CDEF007E354A /* TapGestureOnTopOfTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49ACBC31E41CDEF007E354A /* TapGestureOnTopOfTableViewTests.swift */; };
 		C49ACBCF1E41CDF0007E354A /* TapGestureOnTopOfTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49ACBCE1E41CDF0007E354A /* TapGestureOnTopOfTableViewUITests.swift */; };
+		C49ACBDD1E41CF8E007E354A /* TappableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49ACBDC1E41CF8E007E354A /* TappableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C49ACBCA1E41CDEF007E354A /* TapGestureOnTopOfTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapGestureOnTopOfTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49ACBCE1E41CDF0007E354A /* TapGestureOnTopOfTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureOnTopOfTableViewUITests.swift; sourceTree = "<group>"; };
 		C49ACBD01E41CDF0007E354A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49ACBDC1E41CF8E007E354A /* TappableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TappableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				C49ACBAE1E41CDEF007E354A /* AppDelegate.swift */,
 				C49ACBB01E41CDEF007E354A /* ViewController.swift */,
 				C49ACBB21E41CDEF007E354A /* Main.storyboard */,
+				C49ACBDC1E41CF8E007E354A /* TappableView.swift */,
 				C49ACBB51E41CDEF007E354A /* Assets.xcassets */,
 				C49ACBB71E41CDEF007E354A /* LaunchScreen.storyboard */,
 				C49ACBBA1E41CDEF007E354A /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				C49ACBB11E41CDEF007E354A /* ViewController.swift in Sources */,
 				C49ACBAF1E41CDEF007E354A /* AppDelegate.swift in Sources */,
+				C49ACBDD1E41CF8E007E354A /* TappableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
